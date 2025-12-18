@@ -2,6 +2,17 @@
 
 This project demonstrates a fullstack application that seamlessly integrates both SQL (PostgreSQL) and NoSQL (Redis) databases, with the frontend abstracting the database complexity from users.
 
+
+![Application Screenshot](image.png)
+
+## Abstract
+
+This project presents a **Sensor Monitoring System** that demonstrates the seamless integration of heterogeneous database systems in a fullstack application. The system utilizes a dual-database architecture combining **PostgreSQL** (relational SQL database) and **Redis** (key-value NoSQL database) to manage sensor data, owner information, locations, observations, and alarms.
+
+Built with **React** and **TypeScript** for the frontend and **Express.js** with **Node.js** for the backend, the application provides a unified user interface that abstracts the underlying database complexity. Users interact with the system through a single API layer, while the backend intelligently routes operations to the appropriate database—PostgreSQL for persistent relational data and Redis for high-performance caching and real-time metrics aggregation.
+
+The system demonstrates key database integration patterns including data synchronization, cache management, and cross-database querying, all while maintaining complete transparency to end users. This implementation serves as a practical example of polyglot persistence, showcasing how different database technologies can work together to optimize both data integrity and performance.
+
 ## Database Schema
 
 ![Database Schema](Data%20Schema.png)
