@@ -170,6 +170,22 @@ The frontend communicates with a unified backend API (`/api/*`). The backend aut
 - Frontend: `frontend/src/api/` - Single API client
 - Backend: `backend/src/models/` - Abstraction layer handling dual database operations
 
+## Technologies
+Node.js - 18  
+Express.js - 4  
+TypeScript - 5  
+React - 18  
+PostgreSQL - 15  
+Redis - 7  
+Docker - 24  
+Docker Compose - 2  
+Prisma - 5  
+Axios - 1  
+Jest - 29  
+ESLint - 8  
+Prettier - 2  
+
+
 # AI Declaration
 I acknowledge the use of OpenAI. (2025). ChatGPT (v4) [Large language model]. https://openai.com to generate materials for generating code. 
 
